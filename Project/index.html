@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/home.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+
+
+    <!--!!!!!!!!!!!!!!!!!! NAVBAR STARTS !!!!!!!!!!!!!!!! -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-outline-warning">Primary</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- !!!!!!!!!!!!!!!! NAVBAR ENDS !!!!!!!!!!!!!!!!! -->
+
+
+
+
+
+
+    <!-- !!!!!!!!!!!!!!!!! Slider start here !!!!!!!!!!!!!!!!!!!!-->
+
+    <div id="carouselExampleCaptions" class="carousel slide my-2" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/random" class="d-block w-100 slider-image-size" alt="one-img">
+                <!-- unsplash provides an API which is generating random images we will fix it later -->
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/random" class="d-block w-100 slider-image-size" alt="two-img">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/random" class="d-block w-100 slider-image-size" alt="three-img">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- !!!!!!!!!!!!!!!! Slider ends here !!!!!!!!!!!!!!! -->
+
+
+
+
+    <!-- !!!!!!!!!!!!!!!!!!!! Cards Start here !!!!!!!!!!!!!!!!!!!!  -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-5">
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://source.unsplash.com/random" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://source.unsplash.com/random" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://source.unsplash.com/random" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- !!!!!!!!!!!!!!!!! Cards ends here !!!!!!!!!!!!!!!!!!! -->
+
+
+    <!-- !!!!!!!!!!!!!!! Paragraph starts here !!!!!!!!!!! -->
+    <div class="para">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in nostrum maxime autem illo rerum aliquam
+            officia facilis repellendus soluta dignissimos dolorum quam voluptates omnis est culpa asperiores, explicabo
+            esse itaque quibusdam commodi eos iure? Eveniet aperiam excepturi doloremque nihil, voluptatum saepe ad
+            repellat blanditiis tempore, quo voluptate quod. Eaque impedit quidem officia quibusdam animi. Blanditiis
+            optio, porro repudiandae inventore incidunt libero reiciendis dolor dolores fugit, labore in aut error
+            nihil. Nostrum minus earum tenetur id voluptas? Nobis qui velit totam suscipit? Corrupti velit deserunt
+            laborum atque praesentium temporibus distinctio aperiam, laboriosam blanditiis asperiores, laudantium sequi
+            inventore expedita dolorem, accusamus beatae quod? Nostrum harum, sapiente omnis fuga quasi itaque numquam
+            temporibus deleniti suscipit neque. Voluptates dolorem reprehenderit adipisci error, facere consectetur.
+            Voluptas nisi sit et animi quasi magni ipsum fugit quam, labore quas? Adipisci dolorem, qui, magni cum
+            accusamus quam aliquid deleniti quis voluptatem in omnis aut mollitia eos fugiat laudantium nisi quibusdam!
+            Dolor eum reiciendis neque autem dolores aliquam saepe tempora illo? Unde tempora praesentium ex illum ab
+            nobis incidunt officiis pariatur optio magnam beatae aliquam ducimus deserunt, harum iure sint explicabo
+            deleniti, exercitationem accusamus quae quisquam numquam. Quaerat ipsa itaque unde magni nesciunt
+            repellendus qui laudantium placeat, sed facilis vitae a omnis, maxime amet molestiae doloribus illo dolorem
+            dolor ea sequi sapiente velit temporibus quo delectus. Temporibus, atque iusto. Atque, commodi nesciunt
+            explicabo quasi tempora facilis perspiciatis molestiae quibusdam reprehenderit veniam, corporis quis dolor
+            quas magni cumque sed ducimus rerum voluptate fugiat error praesentium quae harum id illum. Aut fugit
+            veritatis, eligendi sapiente explicabo omnis modi ipsum quasi nemo. Fugiat iure incidunt, itaque perferendis
+            vel ipsam quidem. Ex voluptatibus, eligendi necessitatibus quisquam debitis in recusandae architecto illo ea
+            obcaecati nam nihil harum atque eos animi ducimus. Facilis eaque provident autem nesciunt voluptas eum
+            officiis voluptatum. Corrupti corporis quia cumque, quos earum et explicabo nesciunt exercitationem quam,
+            illo optio laborum doloremque tempora labore temporibus, at blanditiis dignissimos sapiente nostrum!</p>
+    </div>
+    <!-- !!!!!!!!!!!!!!!!!!!!!!! Paragraph ends here !!!!!!!!!!!!!!!!!!!! -->
+
+
+
+
+    <!--!!!!!!!!!!!!!!!!!!! Footer Starts here !!!!!!!!!!!!!!!!! -->
+
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="text-muted">© 2021 Company, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
